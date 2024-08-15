@@ -1,22 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Styles-->
-    <link rel="stylesheet" href="css/style.css">
-    <!--Fonts-->
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap" rel="stylesheet">
-    <!--Icons-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
     <title>CV | Kirill Kubrakov</title>
 </head>
-
 <body>
-    <h1>Hello, World!</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section" id="profile">
+                <img src="assets/myphoto.jpg" alt="MyPhoto" class="section-profile-photo">
+                <div class="section-profile-title">
+                    <h1 class="section-title" id="maintitle">Kirill Kubrakov</h1>
+                    <h3 class="section-title" id="subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">Email: <a href="mailto:kirill310364@gmail.com"
+                            title="email">kirill310364@gmail.com</a></li>
+                    <li class="section-item">Github: <a href="https://github.com/redblade31"
+                            title="github">redblade31</a></li>
+                    <li class="section-item">Discord: Kirill Kubrakov (@redblade31)</li>
+                </ul>
+            </section>
+            <section class= "section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>My work involves adaptive design and website development. I believe that high-quality website design
+                    and component development depend on a deep understanding of the problem and the goals set. I
+                    continue to evolve in my field, constantly working on improving my skills and the quality of the
+                    websites I create. In my free time, I enjoy reading books and going to the GYM.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS</li>
+                    <li class="section-item">JavaScript</li>
+                    <li class="section-item">Git, Github</li>
+                    <li class="section-item">IDE: VScode</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>
+                    function sayHello() {
+                        console.log('Hello, World!');
+                    }
+                    
+                    sayHello();
+                </code></pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p>Some little projects…</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education and Courses</h2>
+                <p>Higher technical education (BNTU, Minsk)</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">Language</h2>
+                <p>English: B1 - Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div>© 2024 <a href="https://github.com/redblade31" class="github nav-link">Redblade31</a></div>
+        </div>
+    </footer>
 </body>
 
 </html>
